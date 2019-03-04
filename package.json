@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "7f4d680a-46da-4e8d-9b42-fcac7ed62d0a",
+    "appType": "app",
+    "appDisplayName": "Contact as QR codes ",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Contact as QR codes "
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.0.0"
+  }
+}

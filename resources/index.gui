@@ -1,0 +1,57 @@
+<svg class="background">
+  <use id="container" href="#panoramaview">
+    <use id="item1" href="#panoramaview-item">
+      <image x="16" y="10" width="32" height="32" href="icons/linked.png" />
+        <g transform="rotate(90)">
+          <text x="40%" y="-10"
+              font-family="System-Regular" fill="black"
+              font-size="30" font-weight="bold"
+              text-anchor="middle">LinkedIn</text>
+        </g>
+       <image x="20%" width="75%" height="100%" href="qrcodes/linked.png" />
+    </use>
+    <use id="item2" href="#panoramaview-item">
+      <image x="10" y="10" width="32" height="32" href="icons/email.png" />
+      <g transform="rotate(90)">
+          <text x="40%" y="-10"
+              font-family="System-Regular" fill="black"
+              font-size="30" font-weight="bold"
+              text-anchor="middle">em@il</text>
+        </g>
+       <image x="20%" width="80%" height="100%" href="qrcodes/email.png" />
+    </use>
+    <use id="item3" href="#panoramaview-item">
+      <image x="5" y="5" width="32" height="32" href="icons/telephone.png" />
+      <g transform="rotate(90)">
+          <text x="40%" y="-10"
+              font-family="System-Regular" fill="black"
+              font-size="30" font-weight="bold"
+              text-anchor="middle">telephone</text>
+        </g>
+       <image x="20%" width="80%" height="100%" href="qrcodes/telephone.png" />
+    </use>
+    <use id="item4" href="#panoramaview-item">      
+      <image x="5" y="5" width="32" height="32" href="icons/telegram.png" />
+      <g transform="rotate(90)">
+          <text x="40%" y="-10"
+              font-family="System-Regular" fill="black"
+              font-size="30" font-weight="bold"
+              text-anchor="middle">telegram</text>
+        </g>
+       <image x="20%" width="80%" height="100%" href="qrcodes/telegram.png" />
+    </use>
+
+    <!-- Have enough pagination dots for your slides (extras are hidden) -->
+     <!--
+    <use id="pagination-dots" href="#pagination-widget" x="0" y="8">
+     
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use id="testing-query" href="#pagination-highlight-dot" fill="red"/>
+    </use>
+      -->
+  </use>
+</svg>
